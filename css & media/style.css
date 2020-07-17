@@ -78,7 +78,7 @@ ul li.active a{
 
 .button{
     position: absolute;
-    top: 67.5%;
+    top: 64.5%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
