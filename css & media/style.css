@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(media/bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.logo img{
+    float: left;
+    padding: 15px;
+    width: 75px;
+    height: 70px;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+ul li.active a{
+    background-color: #000;
+    color: #fff;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.title h3{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.title h4{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.button{
+    position: absolute;
+    top: 67.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    font-family: Verdana;
+    text-decoration: none;
+    transition: 0.8s ease;
+}
+
+.btn:hover{
+    background-color: rgb(66, 0, 0);
+    color: #fff;
+    border-color: rgb(66, 0, 0);
+}
+
+.content{
+    background-color: #FCF6F5FF;
+    width: 190vh;
+    height: 180px;
+    padding: 25px;
+    position: absolute;
+    top: 28%;
+    left: 2%;
+    right: 2%;
+    border: 2px solid #000;
+}
+
+.content p{
+    color: #000;
+    font-family: -apple-system, Ubuntu;
+    font-size: 25px;
+}
+
+table{
+    left: 0px;
+}
+
+table tr{
+    color: #fff;
+    font-family: Tahoma;
+}
+
+.content1{
+    background-color: rgb(184, 184, 184);
+    width: 195.2vh;
+    height: 35px;
+    padding: 25px;
+    position: absolute;
+    top: 98%;
+    left: 0%;
+    border: 1px solid #000;
+}
+
+.content1 p{
+    font-family: -apple-system, Cantarell;
+    font-size: 20px;
+}
+
+#img_content{
+    background-color: rgb(255, 255, 255);
+    /* width: 20vh;
+    height: 35px; */
+    padding: 25px;
+    position: absolute;
+    top: 110%;
+    left: 25%;
+    border: 1px solid #000;
+}
+
+#img_content img{
+    position: relative;
+    top: 0px;
+    left: 2%;
+}
+
+html{
+    overflow-y: scroll;
+       scrollbar-color:  #17202a   #cacfd2 ;
+       scrollbar-width: auto;
+}
+
+#word_content{
+    background-color: #0009;
+    padding: 20px;
+    position: absolute;
+    width: 96.9%;
+    top: 100%;
+    left: 0%;
+}
+
+#word_content p{
+    font-family: Garamond;
+    font-size: large;
+    color: #ccc6c6;
+}
+
+#hyperlink_word{
+    position: absolute;
+    top: 155%;
+    left: 30.5%;
+}
+
+#hyperlink_word a p{
+    font-family: Lucida Bright;
+    color: #005e61;
+    font-size: xx-large;
+    padding: 100px;
+}
+
+#about{
+    padding: 25px;
+    position: absolute;
+    top: 130%;
+    left: 2%;
+}
+
+#about p{
+    font-family: Times New Roman;
+    font-size: xxx-large;
+    color: #0bd91c;
+}
+
+#my{
+    padding: 25px;
+    position: absolute;
+    top: 140%;
+    left: 4%;
+}
+
+#my p{
+    font-family: Times New Roman;
+    font-size: xxx-large;
+    color: #8f0000;
+}
+
+#youtube{
+    padding: 25px;
+    position: absolute;
+    top: 130%;
+    left: 80%;
+}
+
+#youtube p{
+    font-family: Times New Roman;
+    font-size: xxx-large;
+    color: #7a5a00;
+}
+
+#channel{
+    padding: 25px;
+    position: absolute;
+    top: 140%;
+    left: 80%;
+}
+
+#channel p{
+    font-family: Times New Roman;
+    font-size: xxx-large;
+    color: #636262;
+}
