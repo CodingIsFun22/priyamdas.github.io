@@ -78,7 +78,7 @@ ul li.active a{
 
 .button{
     position: absolute;
-    top: 64.5%;
+    top: 66%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -250,7 +250,7 @@ header{
 
 .banner-area h1{
     position: absolute;
-    top: 38%;
+    top: 36%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
