@@ -4,10 +4,20 @@
     font-family: arial;
 }
 
+/*#loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    overflow: visible;
+    background: #121013 url('preloaders/home.gif') no-repeat center center;
+}*/
+
 header{
     background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(media/bg.jpg);
     height: 100vh;
     background-size: cover;
+    background-attachment: fixed;
     background-position: center;
 }
 
@@ -99,21 +109,21 @@ ul li.active a{
 }
 
 .content{
-    background-color: #FCF6F5FF;
+    background-color: #0009;
     width: 190vh;
-    height: 180px;
+    height: 145px;
     padding: 25px;
     position: absolute;
     top: 28%;
     left: 2%;
     right: 2%;
-    border: 2px solid #000;
+    border: 1px solid #e73f00;
 }
 
 .content p{
-    color: #000;
+    color: #ff2e1d;
     font-family: -apple-system, Ubuntu;
-    font-size: 25px;
+    font-size: 22.5px;
 }
 
 table{
@@ -149,7 +159,7 @@ table tr{
     position: absolute;
     top: 110%;
     left: 25%;
-    border: 1px solid #000;
+    border: 1px solid #ffcd00;
 }
 
 #img_content img{
@@ -164,84 +174,31 @@ html{
        scrollbar-width: auto;
 }
 
-#word_content{
-    background-color: #0009;
+#word_content2{
+    background-color: #0000;
     padding: 20px;
     position: absolute;
-    width: 97.01%;
-    top: 100%;
+    width: 96.8%;
+    top: 75%;
     left: 0%;
 }
 
-#word_content p{
-    font-family: Garamond;
-    font-size: large;
-    color: #ccc6c6;
-}
-
-#hyperlink_word{
-    position: absolute;
-    top: 155%;
-    left: 30.5%;
-}
-
-#hyperlink_word a p{
-    font-family: Lucida Bright;
-    color: #005e61;
+#word_content2 p{
+    font-family: Ubuntu;
     font-size: xx-large;
-    padding: 100px;
+    color: #d64700;
 }
 
-#about{
-    padding: 25px;
+
+#button_aboutmychannel a button{
     position: absolute;
-    top: 130%;
-    left: 2%;
-}
-
-#about p{
-    font-family: Times New Roman;
-    font-size: xxx-large;
-    color: #0bd91c;
-}
-
-#my{
-    padding: 25px;
-    position: absolute;
-    top: 140%;
-    left: 4%;
-}
-
-#my p{
-    font-family: Times New Roman;
-    font-size: xxx-large;
-    color: #8f0000;
-}
-
-#youtube{
-    padding: 25px;
-    position: absolute;
-    top: 130%;
-    left: 80%;
-}
-
-#youtube p{
-    font-family: Times New Roman;
-    font-size: xxx-large;
-    color: #7a5a00;
-}
-
-#channel{
-    padding: 25px;
-    position: absolute;
-    top: 140%;
-    left: 80%;
-}
-
-#channel p{
-    font-family: Times New Roman;
-    font-size: xxx-large;
-    color: #636262;
+    background-color: #0009; 
+    top: 172.5%;
+    left: 67.5vh;
+    border-color: #ff9700;
+    color: #790900;
+    font-family: Arial;
+    font-size: 40px;
 }
 
 header{
@@ -259,4 +216,160 @@ header{
     padding: 0;
     font-size: 50px;
     color: #fff;
+}
+
+#bg{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(media/bg 2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.main{
+
+ margin: 0%;
+}
+
+.card{
+     width: 18.7%;
+     height: auto;
+     display: inline-block;
+     background-color: #fff;
+     box-shadow: 15px 15px 20px black;
+     border-radius: 5vh;
+     margin: 2%;
+}
+
+.image img{
+  width: 100%;
+  height: 100px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.title{
+  text-align: center;
+  padding: 10px;
+}
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 14.5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.view_button button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+  width: 40%;
+  font-size: 17.5px;
+}
+
+.view_button button:hover{
+  background-color: #06152d;
+  color: white;
+  transition: 0.5s;
+}
+
+
+#html_word{
+    background-color: #0009;
+    width: 195.2vh;
+    height: 240px;
+    padding: 25px;
+    position: absolute;
+    top: 30%;
+    left: 2.5%;
+    border: 1px solid #68fff4;
+}
+
+#html_word p{
+    font-family: 'times new Roman'
+    font-size: medium;
+    color: #a2fdf6;
+}
+
+.read_more a button{
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1.5px solid #00d7ac;
+    padding: 10px 30px;
+    background-color: #0000;
+    color: #00cd7c;
+    font-family: Arial;
+    text-decoration: none;
+    transition: 0.8s ease;
+    font-size: large;
+}
+
+.read_more a button:hover{
+    background-color: #13f0c4;
+    border-color: #13f0c4;
+    color: #001723;
+}
+
+#html_word_content{
+    background-color: #0000;
+    width: 153.1vh;
+    height: 5px;
+    padding: 25px;
+    position: absolute;
+    top: 82.5%;
+    left: 25%;
+}
+
+#html_word_content p{
+    font-family: Arial;
+    font-size: xx-large;
+    color: #3580ff;
+}
+
+#scratch_content{
+    background-color: #0009;
+    width: 100vh;
+    height: 285px;
+    padding: 25px;
+    position: absolute;
+    top: 25%;
+    left: 23.8%;
+    border: 1.5px solid   #34495e ;
+}
+
+#scratch_content p{
+    color:  #839192 ;
+    font-size: x-large;
+}
+
+#scratch_button a button{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1.5px solid #7b7d7d ;
+    padding: 10px 30px;
+    background-color: #0000;
+    color:  #626567 ;
+    font-family: Arial;
+    text-decoration: none;
+    transition: 0.8s ease;
+    font-size: large;
+}
+
+#scratch_button a button:hover{
+    background-color:  #17202a;
+    border-color: #13f0c4;
+    color:   #d0d3d4 ;
 }
